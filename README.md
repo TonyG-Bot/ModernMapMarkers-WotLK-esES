@@ -14,7 +14,7 @@ A lightweight addon that places markers on the world map for dungeons, raids, wo
 
  **ElvUI** support. Filter Marker & Find Marker menus are skinned to match ElvUI.
 
- [**WDM-addons**](https://github.com/Trimitor/WDM-addons) & [**WDM-patch**](https://github.com/Trimitor/WDM-patch) support. ModernMapMarkers will switch to a different set of marker coordinates compatible with WDM when the addon is detected. New dungeon & raid markers will also be added to the maps introduced by the Caverns and Mines Map patch.
+ [**WDM-addons**](https://github.com/Trimitor/WDM-addons) & [**WDM-patch**](https://github.com/Trimitor/WDM-patch) support. ModernMapMarkers will switch to a different set of marker coordinates compatible with WDM when the addon is detected. New dungeon & raid markers will also be added to the maps introduced by the Caverns and Mines Map patch. **IMPORTANT**: Both WDM patches (patch-M & patch-N) are required for the markers to be placed properly.
  
  Type /mmm to enable/disable the world map dropdown menus.
 
