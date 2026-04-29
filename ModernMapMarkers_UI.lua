@@ -786,7 +786,7 @@ local function PositionDropdowns()
         elseif hasQuestie or hasWDM then
             MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapPositioningGuide, "TOPRIGHT", -19, -99)
         else
-            MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapPositioningGuide, "TOPRIGHT", -19, -55)
+            MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapPositioningGuide, "TOPRIGHT", -36, -75)
         end
     elseif hasElvUISmallerMap then
         MMMFilterDropdown:SetScale(1)
