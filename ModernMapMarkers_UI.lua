@@ -772,9 +772,9 @@ local function PositionDropdowns()
         if hasPfQuest then
             MMMFilterDropdown:SetPoint("TOPRIGHT", pfQuestMapDropdown, "BOTTOMRIGHT", 0, -2)
         elseif hasQuestie or hasWDM then
-            MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapFrameCloseButton, "BOTTOMLEFT", 28, -44)
+            MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapFrameCloseButton, "BOTTOMLEFT", 38, -64)
         else
-            MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapFrameCloseButton, "BOTTOMLEFT", 28, -5)
+            MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapFrameCloseButton, "BOTTOMLEFT", 38, -5)
         end
     elseif windowed then
         local mapScale = (WORLDMAP_SETTINGS and WORLDMAP_SETTINGS.size) or 0.573
@@ -784,7 +784,7 @@ local function PositionDropdowns()
         if hasPfQuest then
             MMMFilterDropdown:SetPoint("TOPRIGHT", pfQuestMapDropdown, "BOTTOMRIGHT", 0, -2)
         elseif hasQuestie or hasWDM then
-            MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapPositioningGuide, "TOPRIGHT", -19, -99)
+            MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapPositioningGuide, "TOPRIGHT", -36, -135)
         else
             MMMFilterDropdown:SetPoint("TOPRIGHT", WorldMapPositioningGuide, "TOPRIGHT", -36, -75)
         end
